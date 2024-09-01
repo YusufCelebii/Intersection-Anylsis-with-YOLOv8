@@ -23,7 +23,6 @@ This project is a vehicle tracking and counting system that utilizes YOLOv8 for 
 1. **Clone the repository:**
     ```bash
     git clone https://github.com/YusufCelebii/Intersection-Anylsis-with-YOLOv8.git
-    cd IntersectionVehicleCounter
     ```
 
 2. **Install dependencies:**
@@ -31,12 +30,9 @@ This project is a vehicle tracking and counting system that utilizes YOLOv8 for 
     pip install -r requirements.txt
     ```
 
-3. **Download the YOLOv8 weights:**
-   Download the YOLOv8 model weights from the [Ultralytics repository](https://github.com/ultralytics/yolov8) and place them in the project directory.
-
 ## Usage
 
 To run the project, ensure you have an appropriate GPU enabled and execute the script as follows:
 
-##Notes
+## Notes
 - Modify the ROI coordinates in the script if you are using a different video or need different regions of interest.
